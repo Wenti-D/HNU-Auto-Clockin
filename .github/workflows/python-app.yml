@@ -7,9 +7,9 @@ on:
     workflow_dispatch:
     push:
     schedule:
-    - cron: '10 16 * * *'
+    - cron: '10 21 * * *'
       # 👆在上面那行修改打卡时间
-      # 00:10 everyday in UTC+8, 16:10 everyday in UTC+0
+      # 05:10 everyday in UTC+8, 21:10 everyday in UTC+0
 
 jobs:
   build:
